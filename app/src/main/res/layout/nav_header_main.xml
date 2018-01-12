@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/surveys_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+
+    <com.example.przemo.voucherapp.Fonts.NativelyCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SURVEYS"
+        android:textSize="40dp"
+        android:fontFamily="@font/crazy_ras"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/Titletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="Voucher App"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Created and developed by KNNDP" />
+
+</LinearLayout>

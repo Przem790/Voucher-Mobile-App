@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+    android:background="@color/surveys_background_vol2"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Imię:"
+            android:textColor="#000000"
+            android:layout_marginBottom="4dp"
+            />
+        <EditText
+
+            android:id="@+id/ClickedEditTwojeImie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="twoje imie"
+            android:textColor="@color/B4_edit"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/surveys_background_vol2"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail (Opcjonalne):"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="4dp"
+            />
+        <EditText
+            android:id="@+id/ClickedEditTwojEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="np. Tomek@gmail.com"
+            android:textColor="@color/B4_edit"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/surveys_background_vol2"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wiek:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/ClickedEditTwojWiek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="twój wiek"
+            android:textColor="@color/B4_edit"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/surveys_background_vol2"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tag Kraju Pochodzenia:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/ClickedEditTwojKraj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="np.PL"
+            android:textColor="@color/B4_edit"
+            />
+    </LinearLayout>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+
+        android:id="@+id/AcceptFirstDataRun"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:buttonMode="regular"
+        app:bootstrapSize="lg"
+        />
+
+
+</LinearLayout>

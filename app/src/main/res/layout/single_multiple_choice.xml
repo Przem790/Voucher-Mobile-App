@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/LinearLayout"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/QuestionTask"
+        android:textSize="@dimen/survey_text_size"
+        android:textColor="@color/BLACK"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_01"
+        android:textSize="@dimen/checkbox_text_size"
+        android:textColor="@color/BLACK"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_02"
+        android:textSize="@dimen/checkbox_text_size"
+        android:textColor="@color/BLACK"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_03"
+        android:textSize="@dimen/checkbox_text_size"
+        android:textColor="@color/BLACK"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_04"
+        android:textSize="@dimen/checkbox_text_size"
+        android:textColor="@color/BLACK"
+        />
+
+
+
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@color/surveys_background_vol2"
+    android:layout_below="@id/LinearLayout"
+    />
+</RelativeLayout>
